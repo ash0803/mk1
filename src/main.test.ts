@@ -1,12 +1,12 @@
 import handler from './main'
 import { coordinatesType } from './types'
 
+const coordinatesHelper = (x: number, y: number) => ({x, y})
+
 describe('Testing handler', () => {
   const handlerErrorTester = (coordinates: coordinatesType, commandSequence: string) => () => {
     handler(coordinates, commandSequence)
   }
-
-  const coordinatesHelper = (x: number, y: number) => ({x, y})
 
   describe('WHEN invalid input is used', () => {
     test('GIVEN co-ordinates is of the wrong format', () => {
