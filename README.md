@@ -71,3 +71,42 @@ So, same deal, we're going to provide the robot with a starting position on the 
 So, the robot should ignore a command asking it to go into negative space. No more dead robots. RIP Kevin.
 
 We still need to support the 500 mk1's we've got roaming around the place, so we'll need a strategy to cope with that somehow.
+
+MK 3
+********************
+
+Apparently there's a spray gun attachment coming for mk2. That'll be exciting. 
+
+But not as exciting as the mk3 that's just landed on my desk. This puppy has ROCKETS.
+
+So, the boys in the lab got a tad excited, granted, but they do have a purpose. Apparently we're sending a few of our robot buddies into Mars on a rocket! 
+
+Management feel they are totally ready for this challenge and have obviously given us loads of time to test and make sure we're ready for the big launch on Tuesday.
+
+Apparently on Mars it's rocky and there are canyons. Who knew. 
+
+We've equipped the mk3 with a small fuel tank of propellant and rockets that can propel them forward really quite quickly. 
+
+Good thing we made that change to point the little guy in a straight line all the time eh?
+
+Anyway - it looks like we'll need to tweak your nav code one more time, but still supporting the mk1's doing car park cleaning (poor mk1s) and the mk2's on high rises with glass inspections.
+
+Forward instructions can now have a number in front of them. 3F, 5F etc
+
+Conveniently boosting into space over canyons forward 1 position burns 1 unit of fuel. 
+
+The tank contains 30 units of fuel.
+
+You can boost up to 5 units in one go before the thing overheats.
+
+FFF5FLFFRF2F 
+
+Until the sensor gear is finally ready, the guys are going to scout out the landscape from the satelites in orbit and continue to tell the robot where to go in advance.
+
+Given a start (x,y), and a set of nav commands, now including forward boosts, lemme know where the robot will end up.
+
+Oh, negative space is fine on Mars BTW. No building edges to fall off.
+
+0,0 FFFFFF3FLFFFFFFR5FL
+
+4,3 FFFFFFFF5FRFFFFFF3FRFFFFFFLFFFFF5FFF5FFFFFFFLFFFFF

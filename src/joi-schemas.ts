@@ -12,3 +12,7 @@ export const commandSequenceSchema = Joi
 export const commandSequenceSchemaMK2 = Joi
   .string()
   .pattern(new RegExp('^[FLR]+$'))
+
+export const commandSequenceSchemaMK3 = Joi
+  .string()
+  .pattern(new RegExp('^(([1-5]{0,1}F)|[LR])+$'))
